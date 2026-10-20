@@ -1,16 +1,53 @@
-# React + Vite
+# FocusFlow — Deep Work Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A productivity web application built with React that helps users manage tasks, plan focused work sessions, and track productivity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Task Management:** Create, complete, and delete tasks.
+- **Priority Management:** Assign priorities to tasks.
+- **Time Estimates:** Set estimated durations for tasks.
+- **Pomodoro Timer:** Start, pause, resume, and reset focus sessions.
+- **Daily Focus Goal:** Set a target and monitor progress.
+- **Focus Statistics:** Track completed sessions and focused time.
+- **Persistent Storage:** Save tasks, goals, and statistics using browser localStorage.
+- **Responsive Design:** Adapt the interface to different screen sizes.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+- localStorage
 
-## Expanding the Oxlint configuration
+## React Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Functional components and hooks
+- `useState` for state management
+- `useEffect` for side effects and timer behavior
+- Event handling and conditional rendering
+- Rendering lists with `.map()`
+- Immutable updates to arrays and objects
+- Browser storage and data persistence
+- Responsive CSS layouts
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Run these commands from the project directory in a Node.js environment.
+
+## Learning Outcomes
+
+This project helped me practice building an interactive React application, managing application state, implementing a countdown timer, and persisting user data with localStorage.
+
+## Future Improvements
+
+- Task editing and search
+- Daily and weekly productivity reports
+- Productivity charts
+- Cloud-based data storage and user accounts
