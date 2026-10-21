@@ -259,7 +259,7 @@ function App() {
 
       <section className="welcome-section" id="home">
         <p className="eyebrow">MAKE TODAY COUNT</p>
-        <h1>Plan your focus.</h1>
+        <h1 className="design">Plan your focus.</h1>
         <p className="welcome-text">
           Turn your priorities into a plan you can actually follow.
         </p>
@@ -311,7 +311,7 @@ function App() {
         <div className="goal-heading">
           <div>
             <p className="eyebrow">YOUR DAILY TARGET</p>
-            <h2>Make time for focused work</h2>
+            <h2 className="design" >Make time for focused work</h2>
             <p className="goal-description">
               Set a target and plan tasks to match it.
             </p>
@@ -372,7 +372,7 @@ function App() {
         <div className="timer-heading">
           <div>
             <p className="eyebrow">FOCUS TIMER</p>
-            <h2>One thing at a time.</h2>
+            <h2 className="design" >One thing at a time.</h2>
           </div>
           <span className="pomodoro-badge">POMODORO</span>
         </div>
@@ -520,7 +520,7 @@ function App() {
           <div className="panel-heading tasks-heading">
             <div>
               <p className="eyebrow">YOUR WORKSPACE</p>
-              <h2>Today's tasks</h2>
+              <h2 className="design" >Today's tasks</h2>
             </div>
             <span className="task-count">{remainingTasks} remaining</span>
           </div>
