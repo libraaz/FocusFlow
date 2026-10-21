@@ -114,6 +114,19 @@ p {
   font-size: 14px;
 }
 
+.design{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 22px;
+letter-spacing: -1.2px;
+word-spacing: 2px;
+color: #3B2D2D;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
 /* Productivity statistics */
 
 .stats-grid {
